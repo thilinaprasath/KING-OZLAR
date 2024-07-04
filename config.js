@@ -22,23 +22,23 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "923135673658";
 global.sudo = process.env.SUDO || "94789958225,94757660788,94770730717,94785274495";
-global.owner = process.env.OWNER_NUMBER || "94789958225,94753574803";
+global.owner = process.env.OWNER_NUMBER || "94767208992,94753574803";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
+global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
-global.disablegroup = process.env.DISABLE_GROUPS || "false",
+global.disablegroup = process.env.DISABLE_GROUPS || "true",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "true";
 global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
-global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.save_status_from = process.env.SAVE_STATUS_FROM || "true";
+global.read_status_from = process.env.READ_STATUS_FROM || "true";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://wasimdscanner-68feefafb737.herokuapp.com/";
@@ -56,7 +56,7 @@ module.exports = {
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "𝐊𝐈𝐍𝐆 𝐎𝐙𝐋𝐀𝐑",
   ownername: process.env.OWNER_NAME || "𝐃𝐄𝐗𝐓𝐄𝐑,𝐕𝐈𝐏𝐄𝐑",
-  errorChat: process.env.ERROR_CHAT || "94789958225",
+  errorChat: process.env.ERROR_CHAT || "94767208992",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
